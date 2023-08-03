@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Logo Start */
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+}
+/* Logo End */
+
+/* SearchArea Start */
+.searchArea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+}
+.searchbar input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+/* SearchArea End */
+
+/* SectionOne Start */
+.sectionOne{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.sectionOne img{
+    height: 300px;
+}
+
+.sectionOneButton{
+    width: 400px;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%,-50%);
+}
+.sectionOneButton h1{
+    letter-spacing: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.sectionOneButton h3{
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: myriad pro;
+}
+.sectionOneButton h4{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.sectionOneButton .brand{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #757575;
+}
+.sectionOneButton h1, h3{
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.sectionOneButton .color{
+    color: #757575;
+}
+
+.sectionOneButton .btn{
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent;
+}
+.aBtn{
+    text-decoration: none;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #757575;
+    transition: all 0.3s ease-in-out;
+}
+
+.sectionOneIconArea{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+.sectionOneIconArea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+.sectionOneIconArea a i{
+    color: #757575;
+}
+.sectionOneIconArea a:hover .fa-facebook-f{
+    color: #3b5998;
+}
+.sectionOneIconArea a:hover .fa-instagram{
+    color: #962fbf;
+}
+.sectionOneIconArea a:hover .fa-chrome{
+    color: #4c8bf5;
+}
+.sectionOneIconArea a:hover .fa-map-marker{
+    color: #ff0000;
+}
+/* SectionOne End */
+
+/* First Section Start */
+.FirstSection{
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.1);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -10px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+.FirstSection h3{
+    margin: 20px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+}
+.FirstSection .panjabi{
+    color: #757575;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+.productBox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productBox img{
+    height: 230px;
+    border-radius: 10px;
+}
+.productBox p{
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.5;
+    line-height: 35px;
+}
+.productBox a{
+    color: #000;
+    font-size: 1rem;
+    font-family: popince;
+    text-decoration: none;
+}
+.BuyBtn{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -8%;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    background: linear-gradient(120deg, #757575 20%, #2d2d2d);
+    animation: fade 0.2s;
+    display: none;
+}
+.productBox:hover .BuyBtn{
+    display: flex;
+}
+.productBox:hover a:last-child{
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+}
+/* First Section End */
+
+/* Second Section Start */
+.about{
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 150px auto;
+}
+.aboutBox{
+    width: 40%;
+}
+.aboutBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutBox h1{
+    font-size: 3rem;
+    font-family: ;
+}
+.aboutBox h4{
+    width: 90%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.aboutBox .ibrand{
+    color: #757575;
+}
+.aboutBox p{
+    font-size: 12px;
+    color: #757575;
+    margin-top: 10px;
+}
+/* Second section End */
+
+/* login & footer Start */
+.loginArea{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginArea h3{
+    font-size: 1.1rem;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.loginArea .loginInput{
+    width: 500px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+.loginInput input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.loginBtn{
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.loginBtn:hover{
+    background-color: #757575;
+    transition: all ease 0.5s;
+}
+input::placeholder{
+    color: #757575;
+    opacity: 0.6;
+}
+
+hr{
+    display: none;
+}
+footer{
+    background-color: #000;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #757575;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+footer span{
+    color: #eee;
+}
+/* login & footer End */
